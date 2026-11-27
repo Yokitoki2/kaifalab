@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Доставка еды</title>
+    <!-- Защита: разрешены только свои скрипты/стили/картинки. Если дизайн подключает внешние шрифты или скрипты — добавьте их домены сюда -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description" content="Доставка еды — заказ через Telegram">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <img class="logo" src="logo.svg" alt="" width="96" height="96">
+            <h1 class="title" data-site-name>Kaif Food</h1>
+            <p class="subtitle">Доставка еды — заказ в Telegram</p>
+
+            <div class="buttons">
+                <!-- id="0", "1", "2" обязательны: по ним подставляются ссылки из config.js -->
+                <a id="0" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Телеграм бот</a>
+                <a id="1" class="btn" href="#" target="_blank" rel="noopener noreferrer">Меню</a>
+                <a id="2" class="btn" href="#" target="_blank" rel="noopener noreferrer">Помощь</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            © <span data-site-name>Kaif Food</span>
+        </footer>
+    </main>
+
+    <!-- Сначала настройки, потом логика -->
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
