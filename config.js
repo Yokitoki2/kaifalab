@@ -10,13 +10,7 @@
    ===================================================================== */
 
 const LINKS = {
-    "kaifaclub.online":    ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kaifalab.online":     ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kaifalife.online":    ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kaifamarket.online":  ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kaifaplace.online":   ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kaifashop.online":    ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
-    "kayfamix.online":     ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"],
+    "kaifalab.online":     ["https://t.me/kaif_food_bot", "https://kaifmenu.online/", "https://t.me/kaif_food_help"],
 
     // Ссылки по умолчанию (если домена нет в списке)
     "default":             ["https://t.me/kaif_food_bot", "https://t.me/kaif_food_menu", "https://t.me/kaif_food_help"]
